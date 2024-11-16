@@ -63,7 +63,7 @@ public class ToDoListApp {
         public void run() {
             try {
                 while (true) {
-                    Thread.sleep(50000); // Her 50 saniyede bir yedekleme yapar
+                    Thread.sleep(20000); // Her 20 saniyede bir yedekleme yapar
                     backupTasks();
                 }
             } catch (InterruptedException e) {
@@ -92,7 +92,7 @@ public class ToDoListApp {
         public void run() {
             try {
                 while (true) {
-                    Thread.sleep(55000); // Her 55 saniyede bir hatırlatma yapar
+                    Thread.sleep(30000); // Her 30 saniyede bir hatırlatma yapar
                     remindTasks();
                 }
             } catch (InterruptedException e) {
